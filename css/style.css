@@ -65,9 +65,12 @@
     position: relative;
     text-align: center;
     margin-top: 20px;
+}
 
-
-  }
+.banner-image{
+    width: 100%;
+}
+  
   .banner-text {
     position: absolute;
     top: 50%;
@@ -101,6 +104,7 @@
      width: 241.47px;
      display: inline-block;
      vertical-align: middle;
+    
 
  }
  .bottom-h2{
@@ -130,6 +134,7 @@
      vertical-align: middle;
 
  }
+
  .bottom-box {
     font-family: "Raleway";
     font-weight: 100;
@@ -141,5 +146,27 @@
 .bottom-section{
     display: inline-block;
     margin-left: 245px;
+    margin-top: 25px;
 }
+/*car move starts*/
+.car-img {
+	width: 300px;
+	animation: carmove 5s infinite 2s alternate;
+/*	animation-name: carmove;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+	animation-direction: alternate;*/
+	position: absolute;
+}
+.car-block {
+	position: relative;
+}
+
+/*keyframes animation*/
+@keyframes carmove {
+	from{left: 0}
+	to {left: 1000px}
+}
+
 
